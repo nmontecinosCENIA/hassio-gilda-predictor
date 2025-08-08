@@ -1,0 +1,8 @@
+# Dependencias del proyecto predictor_electricity 
+pandas
+prophet
+statsforecast
+flask
+requests
+plotly
+pytz

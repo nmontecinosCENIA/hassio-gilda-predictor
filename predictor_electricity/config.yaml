@@ -1,0 +1,18 @@
+# Archivo de configuración para predictor_electricity 
+name: Predictor Electricity
+version: 1.0.0
+slug: predictor_electricity
+description: Ejecuta un script de predicción de electricidad para Home Assistant
+arch:
+  - armhf  # Arquitectura de Raspberry Pi
+startup: services
+boot: auto
+ports:
+  5000/tcp: 5000
+options:
+  input_sensor: ""
+  update_interval: 3600
+schema:
+  input_sensor: str
+  update_interval: int
+
