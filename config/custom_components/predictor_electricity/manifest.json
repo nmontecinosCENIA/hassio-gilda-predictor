@@ -1,0 +1,13 @@
+{
+    "domain": "predictor_electricity",
+    "name": "Electricity Predictor",
+    "version": "1.0.0",
+    "documentation": "https://github.com/yourusername/predictor_electricity",
+    "requirements": ["requests>=2.28.0"],
+    "codeowners": ["@nmontecinosCENIA"],
+    "iot_class": "cloud_polling",
+    "dependencies": [],
+    "config_flow": true
+}
+  
+  

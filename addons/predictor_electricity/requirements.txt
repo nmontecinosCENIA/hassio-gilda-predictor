@@ -1,0 +1,7 @@
+pandas
+prophet
+statsforecast
+flask
+requests
+plotly
+pytz
